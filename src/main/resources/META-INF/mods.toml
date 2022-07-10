@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="bmtweaker"
+version="0.1.0"
+displayName="Blood Magic Tweaker"
+logoFile="examplemod.png"
+credits=""
+authors="Biggest_Xuan"
+description='''
+'''
+[[dependencies.bmtweaker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bmtweaker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
